@@ -17,9 +17,9 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
+      <RouterLink color="inherit" to="/">
         Your Website
-      </Link>{' '}
+      </RouterLink>{' '}
       {new Date().getFullYear()}
       {'.'}
     </Typography>
